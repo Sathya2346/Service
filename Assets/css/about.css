@@ -1,0 +1,139 @@
+.color-white{
+    color: white;
+}        
+        /* aboutBanner Section Start */
+.aboutBanner{
+    background-image: url('../images/img34.png');
+    background-repeat: no-repeat;
+}       
+        /* aboutBanner Section End */
+        /* aboutTrusted Section Start */
+.TrustedImg1Div>img{
+    position: absolute;
+    margin-left: 160px;
+}        
+.TrustedImg2{
+    position: relative;
+    z-index: 99;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+        /* aboutTrusted Section End */
+        /* aboutApproch Section Start */
+.aboutApprochImg2Div{
+    position: relative;
+    width: 320px;
+    height: 30vh;
+    margin-top: 345px;
+    margin-left: 140px;
+    background-color:#4B69A9;
+    border-radius: 8px;
+}        
+.aboutApprochImg1Div>img{
+    position: absolute;
+    z-index: 10;
+}        
+.ApprochCol1{
+    border: 1px solid #e4d7d7;
+    box-shadow: #bbb6b6 2px 5px;
+    border-radius: 8px;
+}
+.bg-lightBlue{
+    background-color: #f7f7f9;
+    color:#3c465b;
+}
+        /* aboutApproch Section End */
+        /* aboutYear Section Start */
+.bg-lightBlue>div>.row>.year{
+    border-right: 2px solid black;
+}        
+        /* aboutYear Section End */
+     
+                    /* Media Query */
+
+@media only screen and (min-width:1281px){
+        /* aboutApproch Section Start */
+.aboutApprochImg2Div{
+    position: relative;
+    width: 320px;
+    height: 45vh;
+    margin-top: 345px;
+    margin-left: 140px;
+    background-color:#4B69A9;
+    border-radius: 8px;
+} 
+        /* aboutApproch Section End */
+}
+@media only screen and (max-width:1030px){
+        /* aboutTrusted Section Start */
+.TrustedImg1Div>img{
+    position: absolute;
+    margin-left: 130px;
+}        
+.TrustedImg2{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 180px;
+}
+        /* aboutTrusted Section End */
+        /* aboutApproch Section Start */
+.aboutApprochImg2Div{
+    position: relative;
+    width: 320px;
+    height: 45vh;
+    margin-top: 345px;
+    margin-left: 140px;
+    background-color:#4B69A9;
+    border-radius: 8px;
+} 
+        /* aboutApproch Section End */
+}  
+@media only screen and (max-width:770px){
+        /* aboutTrusted Section Start */
+.TrustedImg1Div>img{
+    position: absolute;
+    margin-left: 200px;
+}        
+.TrustedImg2{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+        /* aboutTrusted Section End */
+}  
+@media only screen and (max-width:576px){
+        /* aboutTrusted Section Start */
+.TrustedImg1Div>img{
+    position: absolute;
+    width: 250px;
+    margin: 10px;
+}        
+.TrustedImg2{
+    position: relative;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+        /* aboutTrusted Section End */
+        /* aboutApproch Section Start */
+.aboutApprochImg2Div{
+    position: relative;
+    width: 260px;
+    height: 30vh;
+    margin-top: 225px;
+    margin-left: 40px;
+    background-color:#4B69A9;
+    border-radius: 8px;
+} 
+.aboutApprochImg1Div>img{
+    width: 280px;
+    position: absolute;
+    z-index: 10;
+}
+        /* aboutApproch Section End */
+        /* aboutYear Section Start */
+.bg-lightBlue>div>.row>.year{
+    border: none;
+}        
+        /* aboutYear Section End */
+}

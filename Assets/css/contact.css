@@ -1,0 +1,88 @@
+            /* ContactBanner Section Start */
+.ContactBanner{
+    background-image: url('../images/img61.png');
+    background-repeat: no-repeat;
+    height: 70vh;
+    text-align: right;
+    background-size: cover;
+}            
+.ContactBanner>h4{
+    margin-top: 80px;
+    margin-right: 260px;
+}
+.ContactBanner>p{
+    margin-right: 200px;
+}
+            /* ContactBanner Section End */
+            /* ContactForm Section Start */
+form input{
+    border: 1.5px solid #4B69A9;
+    width: 380px;
+    height: 15vh;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-size: 20px;
+}       
+.check{
+    width: 30px;
+    height: 5vh;
+}     
+            /* ContactForm Section End */
+
+            
+            /* Media Query */
+
+@media only screen and (min-width:1281px){
+            /* ContactBanner Section Start */
+.ContactBanner{
+    background-image: url('../images/img61.png');
+    background-repeat: no-repeat;
+    height: 110vh;
+    text-align: right;
+    background-size: cover;
+}            
+.ContactBanner>h4{
+    margin-top: 100px;
+    margin-right: 260px;
+}
+.ContactBanner>p{
+    margin-right: 200px;
+}
+            /* ContactBanner Section End */
+}
+@media only screen and (max-width:1030px){
+}  
+@media only screen and (max-width:770px){
+}  
+@media only screen and (max-width:576px){
+            /* ContactBanner Section Start */
+.ContactBanner{
+    background-image: url('../images/img61.png');
+    background-repeat: no-repeat;
+    height: 110vh;
+    text-align: center;
+    background-size: cover;
+}            
+.ContactBanner>h4{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.ContactBanner>p{
+    margin-right: 20px;
+}
+            /* ContactBanner Section End */
+            /* ContactForm Section Start */
+form input{
+    border: 1.5px solid #4B69A9;
+    width: 280px;
+    height: 15vh;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-size: 20px;
+}       
+.check{
+    width: 30px;
+    height: 5vh;
+}     
+            /* ContactForm Section End */            
+}

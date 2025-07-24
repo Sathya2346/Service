@@ -1,0 +1,90 @@
+.snipIcon{
+    width: 95px;
+}            
+            /* electricalBanner Section Start */
+.electricalBanner{
+    background-image: url('../images/img44.png');
+    background-repeat: no-repeat;
+}            
+            /* electricalBanner Section End */
+            /* electricalService Section Start */
+.ServiceElectrical{
+    background-image: url('../images/img45.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 150px !important;
+    width: 800px;
+    padding: 100px 0px;
+}            
+            /* electricalService Section End */
+            /* electricalConnect Section Start */
+.electricalConnect{
+    background-color: #f7f7f9;
+}            
+            /* electricalConnect Section End */
+
+            
+                    /* Media Query */
+
+@media only screen and (min-width:1281px){
+            /* electricalService Section Start */
+.ServiceElectrical{
+    background-image: url('../images/img40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 220px !important;
+    width: 800px;
+    padding: 100px 0px;
+}            
+            /* electricalService Section End */
+}
+@media only screen and (max-width:1030px){
+    /* electricalService Section Start */
+.ServiceElectrical{
+    background-image: url('../images/img40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px !important;
+    width: 800px;
+    padding: 100px 0px;
+}            
+            /* electricalService Section End */
+}  
+@media only screen and (max-width:770px){
+            /* electricalService Section Start */
+.ServiceElectrical{
+    background-image: url('../images/img40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px !important;
+    width: 600px;
+    padding: 100px 0px;
+}            
+            /* electricalService Section End */
+}  
+@media only screen and (max-width:576px){
+            /* electricalService Section Start */
+.ServiceElectrical{
+    background-image: url('../images/img40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-left: -15px !important;
+    margin-top: 50px;
+    width: 300px;
+}            
+            /* electricalService Section End */
+}

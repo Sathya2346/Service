@@ -1,0 +1,594 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+.color-blue{
+    color: #4B69A9;
+}
+a{
+    text-decoration: none;
+}
+.blue-btn{
+    color: white;
+    background-color: #4B69A9;
+    border-radius: 6px;
+    border: none;
+}
+.color-white{
+    color: white;
+}
+.color-ash{
+    color: #5E6166;
+}
+        /* NavBar Section Start */
+nav{
+    background-color: #4B69A9;
+}
+.nav-link{
+    color: white;
+    font-size: larger;
+}
+.navbar-brand{
+    color: white;
+    font-size: 40px !important;
+    font-weight: 600;
+}
+.NavBtn{
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #4B69A9;
+}        
+        /* NavBar Section End */
+        /* Banner Section Start */
+.bannerCol{
+    border: 1px solid #bbb6b6;
+    box-shadow: #bbb6b6 2px 5px;
+    border-radius: 8px;
+}        
+.bgRoundOver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.bgRoundOver>div{
+    position: absolute;
+    margin-top: 380px;
+}
+.bgRoundBlue{
+    background-color: #4B69A9;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.bannerimg{
+    position: relative;
+    background-image: url('../images/img3.png') !important;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right;
+    margin-top: -500px;
+}
+.bannerimg>img{
+    width: 100%;
+    margin-top: 200px;
+    margin-left: -10px;
+}
+.like1{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.like2{
+    margin-top: 120px;
+    margin-left: -50px;
+}
+.like3{
+    margin-left: 120px;
+}
+        /* Banner Section End */
+        /* AboutUs Section Start */
+.AboutUs{
+    background-color: #F5F5F5;
+}        
+.rotateWord{
+    transform: rotate(90deg);
+    position: static;
+    margin-top: 160px;
+    margin-right: 350px;
+    margin-left: -160px;
+}
+.AboutImgAbsolute>img{
+    position: absolute;
+}
+.AboutImgRelative{
+    position: relative;
+}
+.AboutImgRelative>:first-child{
+    margin-left: 100px;
+    margin-top: -250px;
+}
+.AboutImgRelative>:nth-child(2){
+    margin-top: -40px;
+    margin-left: 300px;
+}
+.AboutImgRelative>:last-child{
+    margin-left: 460px;
+    margin-top: -900px;
+}
+        /* AboutUs Section End */
+        /* Service Section Start */     
+.ServiceFRowFCol{
+    background-image: url('../images/img13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}      
+.transparent-blue{
+    background:  rgba(240, 244, 255, 0.7);
+    border: 1px solid #c6d8ee;
+    border-radius: 10px;
+}
+        /* Service Section End */
+        /* OurProject Section Start */
+.OurProjectImg{
+    width: 300px;
+}        
+.OurProjectImg2{
+    height: 80vh;
+    margin-top: 50px;
+}
+        /* OurProject Section End */
+        /* Testimonials Section Start */
+.testiCol{
+    background-color: white;
+    border:#c2c8d2 1px solid;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}        
+.testiBgBlue{
+    background-color: #4B69A9;
+    color: white;
+    border-radius: 30px;
+} 
+.testiBgBlue>div>h5{
+    font-size: 15px;
+}    
+.testiBgBlue>div>h6{
+    font-size: 10px;
+}       
+        /* Testimonials Section End */
+        /* Connect Section Start */
+.Connect{
+    background-image: url('../images/img26.png');
+    background-repeat: no-repeat;
+    color: white;
+}        
+        /* Connect Section End */
+        /* Footer Section Start */
+.Footer{
+    background-color: #4B69A9; 
+    color: white;
+} 
+.Footer a{
+    color: white;
+}       
+.inputEmail{
+    color: black;
+    font-size: 1rem;
+    width: 300px;
+    height: 6vh;
+    border-top-left-radius: 8px;
+    border: none;
+}
+.footBtn{
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    height: 6vh;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+        /* Footer Section End */
+
+
+                                /* Media Query */
+
+@media only screen and (min-width:1281px){
+    /* OurProject Section Start */
+.OurProjectImg{
+    width: 300px;
+}        
+.OurProjectImg2{
+    width: 450px;
+    height: 140vh;
+    margin-top: 50px;
+}
+        /* OurProject Section End */
+        /* Footer Section Start */
+.Footer{
+    background-color: #4B69A9; 
+    color: white;
+} 
+.Footer a{
+    color: white;
+}       
+.inputEmail{
+    color: black;
+    font-size: 1rem;
+    width: 300px;
+    height: 8vh;
+    border-top-left-radius: 8px;
+    border: none;
+}
+.footBtn{
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    height: 9vh;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+        /* Footer Section End */
+}
+@media only screen and (max-width:1030px){
+    /* Banner Section Start */
+.bannerCol{
+    border: 1px solid #bbb6b6;
+    box-shadow: #bbb6b6 2px 5px;
+    border-radius: 8px;
+}        
+.bgRoundOver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.bgRoundOver>div{
+    position: absolute;
+    margin-top: 380px;
+}
+.bgRoundBlue{
+    background-color: #4B69A9;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.bannerimg{
+    position: relative;
+    background-image: url('/Assets/images/img3.png') !important;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right bottom;
+    margin-top: -450px;
+}
+.bannerimg>img{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: -10px;
+}
+.like1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.like2{
+    margin-top: 120px;
+    margin-left: -90px;
+}
+.like3{
+    margin-left: 100px;
+}
+        /* Banner Section End */
+        /* AboutUs Section Start */
+.AboutUs{
+    background-color: #F5F5F5;
+}        
+.rotateWord{
+    transform: rotate(90deg);
+    position: static;
+    margin-top: 100px;
+    margin-right: 330px;
+    margin-left: -100px;
+}
+.AboutImgAbsolute>img{
+    position: absolute;
+    margin-top: 50px;
+}
+.AboutImgRelative{
+    position: relative;
+}
+.AboutImgRelative>:first-child{
+    width: 82%;
+    margin-left: 70px;
+    margin-top: -160px;
+}
+.AboutImgRelative>:nth-child(2){
+    margin-top: -40px;
+    margin-left: 300px;
+}
+.AboutImgRelative>:last-child{
+    margin-left: 400px;
+    margin-top: -900px;
+}
+        /* AboutUs Section End */
+        /* OurProject Section Start */
+.OurProjectImg{
+    width: 300px;
+}        
+.OurProjectImg2{
+    width:300px;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+        /* OurProject Section End */
+        /* Footer Section Start */
+.Footer{
+    background-color: #4B69A9; 
+    color: white;
+} 
+.Footer a{
+    color: white;
+}       
+.inputEmail{
+    color: black;
+    font-size: 1rem;
+    width: 300px;
+    height: 9vh;
+    border-top-left-radius: 8px;
+    border: none;
+}
+.footBtn{
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    height: 9vh;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+        /* Footer Section End */
+}  
+
+@media only screen and (max-width:770px){
+    /* Banner Section Start */
+.bannerCol{
+    border: 1px solid #bbb6b6;
+    box-shadow: #bbb6b6 2px 5px;
+    border-radius: 8px;
+}        
+.bgRoundOver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.bgRoundOver>div{
+    position: absolute;
+    margin-top: 180px;
+}
+.bgRoundBlue{
+    background-color: #4B69A9;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.bannerimg{
+    position: relative;
+    background-image: url('/Assets/images/img3.png') !important;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right;
+    margin-top: -400px;
+}
+.bannerimg>img{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: -80px;
+}
+.like1{
+    margin-top: -30px;
+    margin-left: -20px;
+}
+.like2{
+    margin-top: 120px;
+    margin-left: -40px;
+}
+.like3{
+    margin-left: 120px;
+}
+        /* Banner Section End */
+        /* AboutUs Section Start */
+.AboutUs{
+    background-color: #F5F5F5;
+}        
+.rotateWord{
+    transform: rotate(90deg);
+    position: static;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: -150px;
+}
+.AboutImgAbsolute>img{
+    position: absolute;
+    margin-top: -10px;
+}
+.AboutImgRelative{
+    position: relative;
+}
+.AboutImgRelative>:first-child{
+    width: 85%;
+    margin-left: 50px;
+    margin-top: -120px;
+}
+.AboutImgRelative>:nth-child(2){
+    width: 20%;
+    margin-top: -40px;
+    margin-left: 180px;
+}
+.AboutImgRelative>:last-child{
+    width: 20%;
+    margin-left: 290px;
+    margin-top: -700px;
+}
+        /* AboutUs Section End */
+        /* OurProject Section Start */
+.OurProjectImg{
+    width: 300px;
+}        
+.OurProjectImg2{
+    height: 80vh;
+    margin-top: 50px;
+}
+        /* OurProject Section End */
+        /* Connect Section Start */
+.Connect-img{
+    height: 100vh;
+}        
+        /* Connect Section End */
+}  
+@media only screen and (max-width:576px){
+            /* Banner Section Start */
+.bannerCol{
+    border: 1px solid #bbb6b6;
+    box-shadow: #bbb6b6 2px 5px;
+    border-radius: 8px;
+}        
+.bgRoundOver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bgRoundOver>div{
+    position: absolute;
+    margin-top: 280px;
+}
+.bgRoundBlue{
+    background-color: #4B69A9;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.bannerimg{
+    position: relative;
+    margin-top: -150px;
+}
+.bannerimg>img{
+    margin-top: 100px;
+    margin-left: -110px;
+}
+.like1{
+    display: none;
+}
+.like2{
+    display: none;
+}
+.like3{
+    display: none;
+}
+        /* Banner Section End */
+        /* AboutUs Section Start */
+.AboutUs{
+    background-color: #F5F5F5;
+} 
+.AboutSecondCol{
+    margin-top: 10px;
+}       
+.rotateWord{
+    transform: rotate(0deg);
+    position: static;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.AboutImgAbsolute>img{
+    position: absolute;
+    width: 60%;
+    margin-top: 130px;
+}
+.AboutImgRelative{
+    position: relative;
+}
+.AboutImgRelative>:first-child{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.AboutImgRelative>:nth-child(2){
+    width: 20%;
+    margin-top: -40px;
+    margin-left: 120px;
+}
+.AboutImgRelative>:last-child{
+    width: 20%;
+    margin-left: 240px;
+    margin-top: -500px;
+}
+        /* AboutUs Section End */
+        /* Service Section Start */
+.transparent-blue{
+    background:  rgba(240, 244, 255, 0.7);
+    border: 1px solid #c6d8ee;
+    border-radius: 10px;
+    width: auto;
+}        
+.ServiceFRowFCol{
+    width: 300px;
+    margin-left: 10px;
+    height: 30vh;
+}
+        /* Service Section End */
+        /* Testimonials Section Start */
+.testiBgBlue{
+    background-color: #4B69A9;
+    color: white;
+    border-radius: 30px;
+    width: 180px;
+    margin-left: 50px;
+}        /* Testimonilas Section End */
+         /* Connect Section Start */
+.Connect{
+    background-image: url('/Assets/images/img26.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}         
+.Connect-img{
+    height: auto;
+}        
+        /* Connect Section End */
+        /* Footer Section Start */
+.Footer{
+    background-color: #4B69A9; 
+    color: white;
+} 
+.Footer a{
+    color: white;
+}       
+.inputEmail{
+    color: black;
+    font-size: 1rem;
+    width: 200px;
+    height: 8vh;
+    border-top-left-radius: 8px;
+    border: none;
+}
+.footBtn{
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    height: 8vh;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+        /* Footer Section End */
+}                
